@@ -87,3 +87,4 @@ if __name__ == "__main__":
                     tech[url]['Vulnerable'] = "Safe"
 
     print(json.dumps(tech, indent=4))
+    open('wappalyzer_result.txt', 'w').write(json.dumps(tech, indent=4))
