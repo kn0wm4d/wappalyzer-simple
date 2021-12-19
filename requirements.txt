@@ -1,0 +1,3 @@
+huepy
+requests
+requests_futures
